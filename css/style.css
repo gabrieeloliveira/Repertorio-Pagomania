@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:1300px) {
+   
+    article {
+        flex-wrap: wrap;
+    }
+}
+
+main{
+    background-color: blueviolet;
+    margin: auto;
+    padding: 30px;
+}
+main h1 {
+    
+    text-align: center;
+}    
+article{
+    display: flex;
+    width: 100%;
+    
+}
+div.blocos{
+    background-color: white;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+    padding-left: 45px;
+    flex: 1 1 300px;
+    width: 100%;
+}
+h2{
+    
+    padding-bottom: 15px;
+}
+li{
+    font:normal 25px arial;
+    padding-bottom: 15px;
+    text-decoration:underline ;
+}
