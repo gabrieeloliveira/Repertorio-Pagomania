@@ -1,3 +1,41 @@
-pre{
-    font-size: 50px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+main{
+    background-color: blueviolet;
+    
+}
+p{
+    background-color: white;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    width: 50%;
+    max-width: 100%;
+    margin: auto;
+    font-family: 'Courier New', monospace; /* mantém alinhamento das cifras */
+    white-space: pre-wrap;
+}
+@media screen and (max-width:1830px) {
+    p{
+        width: 60%;
+    }
+}
+@media screen and (max-width:1500px) {
+    p{
+        width: 60%;
+    }
+}
+@media screen and (max-width:1418px) {
+    p{
+        width: 80%;
+    }
+}
+@media screen and (max-width:1050px) {
+    p{
+        width: 100%;
+    }
+}
+
+
