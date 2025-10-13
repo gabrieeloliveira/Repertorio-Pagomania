@@ -7,7 +7,7 @@ main{
     background-color: blueviolet;
     
 }
-p{
+pre{
     background-color: white;
     line-height: 1.6;
     font-size: 1.1rem;
@@ -16,24 +16,25 @@ p{
     margin: auto;
     font-family: 'Courier New', monospace; /* mantém alinhamento das cifras */
     white-space: pre-wrap;
+     word-wrap: break-word;  /* quebra palavras longas se necessário */
 }
 @media screen and (max-width:1830px) {
-    p{
+    pre{
         width: 60%;
     }
 }
 @media screen and (max-width:1500px) {
-    p{
+    pre{
         width: 60%;
     }
 }
 @media screen and (max-width:1418px) {
-    p{
+    pre{
         width: 80%;
     }
 }
 @media screen and (max-width:1050px) {
-    p{
+    pre{
         width: 100%;
     }
 }
