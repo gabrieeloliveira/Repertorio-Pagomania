@@ -10,11 +10,14 @@
         flex-wrap: wrap;
     }
 }
-
-main{
+body{
     background-color: blueviolet;
+}
+main{
+    
     margin: auto;
     padding: 30px;
+    
 }
 main h1 {
     
@@ -24,6 +27,7 @@ article{
     display: flex;
     width: 100%;
     
+    
 }
 div.blocos{
     background-color: white;
@@ -31,7 +35,7 @@ div.blocos{
     margin: 15px;
     padding: 15px;
     padding-left: 45px;
-    flex: 1 1 300px;
+    flex: 1 1 244px;
     width: 100%;
 }
 h2{
