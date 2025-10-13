@@ -20,7 +20,7 @@ main{
     
 }
 main h1 {
-    
+    color: rgb(255, 255, 255);
     text-align: center;
 }    
 article{
@@ -35,7 +35,7 @@ div.blocos{
     margin: 15px;
     padding: 15px;
     padding-left: 45px;
-    flex: 1 1 244px;
+    flex: 1 1 70px;
     width: 100%;
 }
 h2{
@@ -46,4 +46,5 @@ li{
     font:normal 25px arial;
     padding-bottom: 15px;
     text-decoration:underline ;
+    text-underline-offset:4px ;
 }
