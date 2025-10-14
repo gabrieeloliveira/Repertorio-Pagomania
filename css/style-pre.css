@@ -7,6 +7,10 @@ main{
     background-color: blueviolet;
     
 }
+pre p {
+    text-align: center;
+    font: normal 1.5em arial,sans-serif;
+}
 pre{
     background-color: white;
     line-height: 1.6;
@@ -40,6 +44,7 @@ pre{
         line-height: 2;
     }
 }
+
 div.buttons{
     display: flex;
 }

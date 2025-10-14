@@ -10,6 +10,7 @@
         flex-wrap: wrap;
     }
 }
+
 body{
     background-color: blueviolet;
 }
@@ -23,6 +24,11 @@ main h1 {
     color: rgb(255, 255, 255);
     text-align: center;
 }    
+@media screen and (max-width:450px) {
+    div.blocos {
+
+    }
+}
 article{
     display: flex;
     width: 100%;
@@ -36,12 +42,23 @@ div.blocos{
     padding: 15px;
     padding-left: 45px;
     flex: 1 1 20px;
-    width: 100%;
+    width: 42%;
+}
+@media screen and (max-width:450px) {
+    div.blocos {
+        width: 30%;
+        margin: 8px;
+        
+    }
+    main {
+        padding:25px 0;
+    }
 }
 h2{
     
     padding-bottom: 15px;
 }
+
 li{
     font:normal 25px arial;
     padding-bottom: 15px;
