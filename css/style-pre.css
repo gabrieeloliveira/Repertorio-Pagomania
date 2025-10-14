@@ -10,13 +10,13 @@ main{
 pre{
     background-color: white;
     line-height: 1.6;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     width: 50%;
     max-width: 100%;
     margin: auto;
     font-family: 'Courier New', monospace; /* mantém alinhamento das cifras */
     white-space: pre-wrap;
-     word-wrap: break-word;  /* quebra palavras longas se necessário */
+    word-wrap: break-word;  /* quebra palavras longas se necessário */
 }
 @media screen and (max-width:1830px) {
     pre{
@@ -40,5 +40,18 @@ pre{
         line-height: 2;
     }
 }
-
+div.buttons{
+    display: flex;
+}
+a > button{
+    font-weight:500 ;
+    font-size: 30px;
+    width: 80%;
+    height: 100px;
+    margin: 30px;
+    line-height: 1.2em;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.383);
+}
 
