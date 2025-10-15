@@ -6,6 +6,7 @@
 main{
     background-color: blueviolet;
     
+    
 }
 pre p {
     text-align: center;
@@ -47,16 +48,30 @@ pre{
 
 div.buttons{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    max-width: 1300px;
+    margin: auto;
+}
+div.button-direito a {
+    display: flex;
+    justify-content: end;
 }
 a > button{
     font-weight:500 ;
     font-size: 30px;
-    width: 80%;
+    width: 60%;
     height: 100px;
-    margin: 30px;
+    padding: 25px;
+    width: 80%;
     line-height: 1.2em;
     border-radius: 10px;
     border: none;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.383);
+    
+    
 }
-
+u {
+    font-size: 1.5em;
+}
