@@ -3,15 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-main{
+body{
     background-color: blueviolet;
     
     
 }
-pre p {
-    text-align: center;
-    font: normal 1.5em arial,sans-serif;
-}
+
+
 pre{
     background-color: white;
     line-height: 1.6;
@@ -54,17 +52,24 @@ div.buttons{
     max-width: 1300px;
     margin: auto;
 }
+a{
+    width: 100%;
+}
+div.button-direito{
+    
+}
 div.button-direito a {
     display: flex;
     justify-content: end;
+    width: 100%;
 }
-a > button{
+a > input[type=button]{
     font-weight:500 ;
     font-size: 30px;
-    width: 60%;
-    height: 100px;
+    
+    height:auto;
     padding: 25px;
-    width: 80%;
+    width: 100%;
     line-height: 1.2em;
     border-radius: 10px;
     border: none;
@@ -74,4 +79,22 @@ a > button{
 }
 u {
     font-size: 1.5em;
+}
+div.cifra {
+    background-color: white;
+    
+}
+div.cifra h1 {
+    font: normal 2em arial,sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+@media screen and (max-width:650px) {
+    pre{
+        font-size: 3em;
+    }
+    a > input[type=button]{
+        width: 80%
+    }
 }
