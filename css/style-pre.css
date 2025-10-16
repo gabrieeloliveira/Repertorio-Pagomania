@@ -7,11 +7,41 @@ body{
     background-color: blueviolet;
     
 }
-
-input#buttonTeste {
+div.buttons{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    align-items: center;
+}
+input#button {
     margin: auto;
     display: flex;
-    width: 50%;
+    padding: 30px;
+    width: 95%;
     height: 100px;
     justify-content: flex-start;
+    
+}
+section{
+    background-color: white;
+    width: 40%;
+    margin: auto;
+}
+header{
+    text-align: center;
+}
+@media screen and (max-width:650px) {
+    section{
+        width: 94%;
+    }
+    div.buttons{
+        padding: 20px;
+        
+    }
+    pre{
+        font-size: 1.4em;
+    }
 }
