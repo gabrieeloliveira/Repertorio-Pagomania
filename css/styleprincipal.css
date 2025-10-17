@@ -13,6 +13,7 @@
 
 body{
     background-color: blueviolet;
+    height: 2000px;
 }
 input#pesquisaInput{
     display: block;
@@ -22,10 +23,11 @@ input#pesquisaInput{
     font-size: 18px;
     border: 2px solid #333;
     border-radius: 5px;
-    position: fixed;
+    
     top: 10px;
-    right: 20px;
+    right: 30px;
     transition: all .3s ease;
+    z-index: 999;
 }
 
 /* estilo quando o input "gruda" na tela */
@@ -36,6 +38,8 @@ input#pesquisaInput.fixo {
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     background-color: white;
     z-index: 999;
+    display: block;
+    
 }
 main{
     

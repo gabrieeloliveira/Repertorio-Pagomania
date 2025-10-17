@@ -9,17 +9,18 @@ function filtarLista () {
     // percorre todos os <li> e mostra ou esconde conforme o filtro
     itens.forEach(li => {
         const texto = li.textContent.toLowerCase();
-        li.style.display = texto.includes(filtro) ? '' : 'none';
+        li.style.display = texto.includes(filtro) ? 'block' : 'none';
     } )
+    
+}
 
+    const inputSearch = document.getElementById('pesquisaInput')
     const posicaoOriginal = inputSearch.offsetTop; // salva a posição original
 
-window.addEventListener('scroll', () => {
+    window.addEventListener('scroll', () => {
     if (window.scrollY > posicaoOriginal){
         inputSearch.classList.add('fixo')
     } else {
         inputSearch.classList.remove('fixo')
     }
 })
-}
-
