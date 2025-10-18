@@ -9,7 +9,7 @@ function filtarLista () {
     // percorre todos os <li> e mostra ou esconde conforme o filtro
     itens.forEach(li => {
         const texto = li.textContent.toLowerCase();
-        li.style.display = texto.includes(filtro) ? 'block' : 'none';
+        li.style.display = texto.includes(filtro) ? '' : 'none';
     } )
     
 }
@@ -20,6 +20,7 @@ function filtarLista () {
     window.addEventListener('scroll', () => {
     if (window.scrollY > posicaoOriginal){
         inputSearch.classList.add('fixo')
+        
     } else {
         inputSearch.classList.remove('fixo')
     }
