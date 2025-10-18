@@ -15,15 +15,17 @@ body{
     background-color: blueviolet;
     height: 2000px;
 }
+
 input#pesquisaInput{
     display: block;
     margin: 20px auto;
-    width: 80%;
+    width: 70%;
     padding: 10px;
     font-size: 18px;
-    border: 2px solid #333;
+    border:2px solid #333333ab ;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.534);
     border-radius: 5px;
-    
+    overflow: hidden;
     top: 10px;
     right: 30px;
     transition: all .3s ease;
@@ -35,11 +37,11 @@ input#pesquisaInput.fixo {
     position: fixed;
     top: 10px;
     left: 40px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.164);
     background-color: white;
     z-index: 999;
     display: block;
-    
+    justify-content: center;
 }
 main{
     
@@ -48,14 +50,13 @@ main{
     
 }
 main h1 {
+    padding: 5px;
     color: rgb(255, 255, 255);
     text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.288);
+    
 }    
-@media screen and (max-width:450px) {
-    div.blocos {
 
-    }
-}
 article{
     display: flex;
     width: 100%;
@@ -63,6 +64,7 @@ article{
     
 }
 div.blocos{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.418);
     background-color: white;
     border-radius: 5px;
     margin: 15px;
@@ -71,13 +73,19 @@ div.blocos{
     flex: 1 1 20px;
     width: 42%;
 }
+a{
+    text-decoration: none;
+    color: brown;
+}
 @media screen and (max-width:450px) {
     div.blocos {
-        width: 100%;
+        width: 100%; 
         margin: 8px;
         padding-left: 32px;
-        
-        
+        padding-right: 10px;
+    }
+    input#pesquisaInput{
+        width: 85%;
         
     }
     li{
